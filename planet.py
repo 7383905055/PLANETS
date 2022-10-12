@@ -1,0 +1,105 @@
+import cv2
+from cv2 import waitKey
+
+image = cv2.imread("solar-system.jpg")
+cv2.putText(
+    image,
+    "SOLAR-SYSTEM",
+    (200,70),
+    cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,
+    3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "S",
+    (5,200),
+    cv2.FONT_HERSHEY_COMPLEX,
+    4,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "U",
+    (3,300),
+    cv2.FONT_HERSHEY_COMPLEX,
+    4,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "N",
+    (3,400),
+    cv2.FONT_HERSHEY_COMPLEX,
+    4,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "MERCURY",
+    (120,250),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "VENUS",
+    (200,250),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "EARTH",
+    (300,250),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "MARS",
+    (400,250),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "JUPITER",
+    (550,360),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "SATURN",
+    (780,300),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "URANUS",
+    (980,290),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.putText(
+    image,
+    "NEPTUNE",
+    (1120,290),
+    cv2.FONT_HERSHEY_COMPLEX,
+    0.3,
+    (255,255,255)
+)
+cv2.imshow("SOLAR-SYSTEM-CHART", image)
+
+cv2.waitKey(0)
+
+
